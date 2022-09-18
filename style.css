@@ -1,0 +1,57 @@
+body {
+	height: 100vh;
+	display: flex;
+	line-height: 4rem;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.contact {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.contact a {
+    opacity: 60%;
+	color: black;
+	margin: 0.5rem;
+	font-weight: 600;
+	font-size: 1.3rem;
+	text-decoration: none;
+}
+
+.contact a:hover {
+	opacity: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		line-height: 3rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+	.contact {
+		right: 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
